@@ -18,7 +18,8 @@
 
 /* Colors */
 :root {
-  --color-default: #fafafa;
+  /*--color-default: #fafafa;*/
+  --color-default: crimson;
   --color-primary: #27a776;
   --color-secondary: #161718;
 }
@@ -36,7 +37,8 @@
 body {
   font-family: var(--font-default);
   color: var(--color-default);
-  background-color:darkred;
+  /*background-color:darkred;*/
+  background-color: #000;
 }
 
 
@@ -1297,14 +1299,16 @@ h6 {
 
 .footer .copyright {
   text-align: center;
-  color: rgba(255, 255, 255, 0.8);
+  /*color: rgba(255, 255, 255, 0.8);*/
+  color:crimson;
 }
 
 .footer .credits {
   padding-top: 6px;
   text-align: center;
   font-size: 13px;
-  color: rgba(255, 255, 255, 0.8);
+  /*color: rgba(255, 255, 255, 0.8);*/
+  color:crimson;
 }
 
 .footer .credits a {
@@ -1315,3 +1319,5 @@ h6 {
 .Logo{
   size: 200%
 }
+
+
